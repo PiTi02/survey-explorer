@@ -3,9 +3,11 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - python=3.11
+  - python
   - streamlit
   - pandas
-  - pydantic-settings
-  - psycopg2-binary
   - plotly
+  - pydantic-settings
+  - pip
+  - pip:
+      - psycopg2-binary
