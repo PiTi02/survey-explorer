@@ -1,0 +1,17 @@
+.env
+
+# Pliki systemowe
+.DS_Store
+Thumbs.db
+
+# Cache Pythona
+__pycache__/
+*.pyc
+
+# Wirtualne środowisko
+.venv/
+env/
+venv/
+
+# Streamlit
+.streamlit/
