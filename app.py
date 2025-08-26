@@ -283,7 +283,7 @@ def head_panel(df, df_filtered):
 # --- MAIN FUNCTION ---
 # --------------------------------
 def main():
-
+    # --- Wczytanie danych ---
     PATH_DATA = Path(settings.PATH_DATA)
     FILE_NAME = settings.FILE_NAME
     file_csv = PATH_DATA / FILE_NAME

@@ -1,9 +1,10 @@
-name: surrvey-explorer
+name: survey-explorer-clean
 channels:
   - conda-forge
+  - defaults
 dependencies:
   - python=3.11
   - streamlit
   - pandas
-  - pydantic-settings
   - plotly
+  - pydantic-settings
