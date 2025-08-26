@@ -1,4 +1,4 @@
-name: survey-explorer-clean
+name: survey-explorer
 channels:
   - conda-forge
   - defaults
