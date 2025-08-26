@@ -1,0 +1,11 @@
+name: survey-explorer
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - streamlit
+  - pandas
+  - pydantic-settings
+  - psycopg2-binary
+  - plotly
