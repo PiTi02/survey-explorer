@@ -285,6 +285,9 @@ def head_panel(df, df_filtered):
 # --------------------------------
 def main():
 
+st.write(sys.path)
+st.write(sys.executable)
+
     PATH_DATA = Path(settings.PATH_DATA)
     FILE_NAME = settings.FILE_NAME
     file_csv = PATH_DATA / FILE_NAME
