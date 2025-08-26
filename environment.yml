@@ -6,7 +6,7 @@ dependencies:
   - streamlit
   - pandas
   - pydantic-settings
-  - psycopg2
+  - psycopg2-binary
   - plotly
 
 
